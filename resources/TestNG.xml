@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FirstOne">
+	<test name= "FirefoxTest">
+		<parameter name="origin" value="MTY"/>
+		<parameter name="destination" value="Mumbai"/>
+		<classes>
+			<class name="TestNGPackage.TestNGTraining">
+			<methods>
+				<include name="fillForm"/>
+			</methods>
+			</class>
+		</classes>
+</test>
+</suite>
